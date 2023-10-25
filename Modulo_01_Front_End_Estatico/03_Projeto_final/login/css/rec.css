@@ -1,0 +1,158 @@
+body {
+    background-image: url(../img/ada-logo.jpg);
+    margin: 0;
+    background-position: 0px -300px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: #eeeee6;
+ }
+ .logpad {
+    max-width: 350px;
+    min-height: 350px;
+    background: transparent;
+    backdrop-filter: blur(7px);
+    margin: auto;
+    padding: 20px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 4px 0px 10px 1px rgba(204,204,204,1);
+    -webkit-box-shadow: 4px 5px 10px 1px rgba(204,204,204,1);
+    -moz-box-shadow: 4px 0px 10px 1px rgba(204,204,204,1);
+    border-left: 4px solid #ffbc0d;
+    border-bottom: 4px solid #ffbc0d;
+ }
+
+ .logpad span:first-child {
+    font-family: Andale Mono, monospace;
+    color: #1e3932;
+    font-size: 30px;
+ }
+.logpad span:last-child {
+    font-family: Andale Mono, monospace;
+    color: 1ceeb6;
+    font-size: 35px;
+    letter-spacing: -2px;
+}
+
+.logpad input {
+    border: none;
+    outline: none;
+    background: none;
+    border-bottom: 2px solid #1e3932;
+    width: 100%;
+    padding: 0px;
+    color: #1e3932;
+    font-family: "Century Gothic";
+    font-size: 18px;
+    margin: 30px 0px;
+    transition: .5s;
+}
+
+.logbox {
+    color: #1e3932;
+    margin: 15px;
+    font-family: "Century Gothic";
+    text-align: left;
+    font-weight: 1em;
+    padding: 7px;
+}
+.logpad button {
+    color: #4c3807;
+    background-color: #ffbc0d;
+    font-size: 16px;
+    font-fammily: Lithos Pro;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    padding: 10px;
+    width: 100%;
+    margin: 20px 0;
+    transition: .3s;
+    border-radius: 3px 20px;
+}
+.logpad button:hover {
+    background-color: #4c3807;
+    color: #ffffff;
+}
+.logpad input:focus {
+    background: none;
+    border-bottom: 2px solid #ffbc0d;
+}
+.social-login {
+    position: fixed;
+    height: 100px;
+    width: 160px;
+    text-align: center;
+    bottom: 0;
+    right: 0;
+    color: #1e3932;
+}
+.social-login h3{
+    font-family: Andale Mono, monospace;
+    padding-top: 6px;
+}
+.social-icons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.social-login__icon {
+    padding: 19px 12px;
+    padding-top: 8px;
+    color: #1e3932;
+    text-decoration: none;
+    font-size: 1.3em;
+    text-shadow: 0px 0px 8px #1e3932;
+}
+.social-login__icon:hover {
+    transform: scale(1.5);
+}
+    @media(max-width: 720px){
+        .logpad{
+            max-width: 240px;
+        }
+        body{
+            background-size: 300% 200%;
+            background-position: center;
+        }
+    }
+
+
+fieldset  {
+    margin-bottom: 15px;
+    margin-left: -14px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.margem {
+    margin: 0;
+    padding: 10px;
+}
+
+#rec-senha {
+    height: 100px;
+    width: 100%;
+    text-align: center;
+    
+}
+
+#rec-senha h3 {
+    font-family: Andale Mono, monospace;
+    
+}
+
+#rec-senha a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    color: #1e3932;
+}
+ #rec-senha a:hover {
+    color: #4c3807;
+ }

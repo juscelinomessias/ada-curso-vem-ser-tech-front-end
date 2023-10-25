@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="icon" href="../assets/img/favicon-16x16.png">
+    <link rel="stylesheet" type="text/css" href="../assets/css/style.css" />
+
+    <meta name="title" content="Bem-vindo à AdaBucks Coffee Company!"/>
+    <meta name="description" content="AdaBucks Coffee Company - Especialista em Cafés." />
+    <meta name="keywords" content="AdaBucks, Café, Caffé Americano, Vanilla Latte, Affogato, Sparkling Espresso, Caffé Mocha, Iced Latte" />	
+
+    <title>AdaBucks Coffee Company</title>  
+
+</head>
+<body>
+
+
+    <div class="container">
+
+        <header>
+            <div class="container_header">
+
+            <figure class="logo">
+                <a href="../index.html"><img src="../assets/img/favicon-16x16.png" alt="Logo AdaBucks" title="Logo AdaBucks"></a>
+            </figure>
+
+            <div class="menu">
+                <nav class="menu_principal">
+                    <ul>
+                        <li><a href="../index.html">HOME</a></li>
+                        <li><a href="nosso_cafe.html">NOSSO CAFÉ</a></li>
+                    </ul>
+                </nav>
+                <nav class="menu_secundario">
+                    <div class="botao_1l">
+                        <div class="botao_1"><a href="../login/login.html">Entrar</a></div>
+                    </div>
+                </nav>
+            </div>
+
+            </div>
+        </header>
+
+
+        <section id="banner">
+            <div class="controle_banner">
+                <div class="esq">
+                    <a href="#"><img src="../assets/img/retroceder.png" alt="Voltar" title="Voltar"></a>
+                </div>
+                <div class="dir">
+                    <a href="#"><img src="../assets/img/avancar.png" alt="Avançar" title="Avançar"></a>
+                </div>
+            </div>
+        </section>
+
+
+        <section id="carrinho">
+            <div class="carrinho_valores">
+                <h2>Seu Carrinho</h2>
+                <ul id="carrinho-lista"></ul>
+                <p>Total: R$ <span id="total-carrinho">0.00</span></p>
+            </div>
+        </section>
+
+
+        <section class="nosso-cafe">
+            <section class="foods__3_items">
+                <div class="foods__item">
+                    <figure>
+                        <img src="../assets/img/cafe-01.png" alt="Caffé Americano" title="Caffé Americano">
+                    </figure>
+                    <h3>Caffé Americano</h3>
+                    <p>Delicioso e Simples.</p>
+                    <p>R$ 4,90</p>
+                    <div class="foods__item_botoes_carrinho">
+                        <button class="botao_menos" onclick="removerProduto('Caffé Americano', 4.90)">-</button>
+                        <button onclick="window.location.href='caffe_americano.html';">Clique aqui</button>
+                        <button class="botao_mais" onclick="adicionarProduto('Caffé Americano', 4.90)">+</button>
+                    </div>
+                </div>
+
+                <div class="foods__item">
+                    <figure>
+                        <img src="../assets/img/cafe-04.png" alt="Vanilla Latte" title="Vanilla Latte">
+                    </figure>                
+                    <h3>Vanilla Latte</h3>
+                    <p>Suave e aveludado.</p>
+                    <p>R$ 7,90</p>
+                    <div class="foods__item_botoes_carrinho">
+                        <button class="botao_menos" onclick="removerProduto('Vanilla Latte', 7.90)">-</button>
+                        <button onclick="window.location.href='caffe_vanilla_latte.html';">Clique aqui</button>
+                        <button class="botao_mais" onclick="adicionarProduto('Vanilla Latte', 7.90)">+</button>
+                    </div>                
+                </div>
+
+                <div class="foods__item">
+                    <figure>
+                        <img src="../assets/img/cafe-05.png" alt="Affogato" title="Affogato">
+                    </figure>                  
+                    <h3>Affogato</h3>
+                    <p>Refrescante e equilibrado.</p>
+                    <p>R$ 12,90</p>
+                    <div class="foods__item_botoes_carrinho">
+                        <button class="botao_menos" onclick="removerProduto('Affogato', 12.90)">-</button>
+                        <button onclick="window.location.href='caffe_affogato.html';">Clique aqui</button>
+                        <button class="botao_mais" onclick="adicionarProduto('Affogato', 12.90)">+</button>
+                    </div> 
+                </div>                
+            </section> 
+        </section>
+
+
+        <section class="nosso-cafe">
+            <section class="foods__3_items">
+                <div class="foods__item">
+                    <figure>
+                        <img src="../assets/img/cafe-02.png" alt="Sparkling Espresso" title="Sparkling Espresso">
+                    </figure>                  
+                    <h3>Sparkling Espresso</h3>
+                    <p>Um toque brilhante.</p>
+                    <p>R$ 14,90</p>
+                    <div class="foods__item_botoes_carrinho">
+                        <button class="botao_menos" onclick="removerProduto('Sparkling Espresso', 14.90)">-</button>
+                        <button onclick="window.location.href='caffe_sparkling_espresso.html';">Clique aqui</button>
+                        <button class="botao_mais" onclick="adicionarProduto('Sparkling Espresso', 14.90)">+</button>
+                    </div>                 
+                </div>
+
+                <div class="foods__item">
+                    <figure>
+                        <img src="../assets/img/cafe-03.png" alt="Caffé Mocha" title="Caffé Mocha">
+                    </figure>                   
+                    <h3>Caffé Mocha</h3>
+                    <p>Um clássico Starbucks.</p>
+                    <p>R$ 9,90</p>
+                    <div class="foods__item_botoes_carrinho">
+                        <button class="botao_menos" onclick="removerProduto('Caffé Mocha', 9.90)">-</button>
+                        <button onclick="window.location.href='caffe_mocha.html';">Clique aqui</button>
+                        <button class="botao_mais" onclick="adicionarProduto('Caffé Mocha', 9.90)">+</button>
+                    </div>                      
+                </div>
+
+                <div class="foods__item">
+                    <figure>
+                        <img src="../assets/img/cafe-06.png" alt="Iced Latte" title="Iced Latte">
+                    </figure>                 
+                    <h3>Iced Latte</h3>
+                    <p>Fresca e Refrescante.</p>
+                    <p>R$ 11,90</p>
+                    <div class="foods__item_botoes_carrinho">
+                        <button class="botao_menos" onclick="removerProduto('Iced Latte', 11.90)">-</button>
+                        <button onclick="window.location.href='caffe_iced_latte.html';">Clique aqui</button>
+                        <button class="botao_mais" onclick="adicionarProduto('Iced Latte', 11.90)">+</button>
+                    </div>                    
+                </div>                
+            </section> 
+        </section>
+
+    
+        <footer>
+            <nav class="container flexColumn">
+
+                <div class="footer_1">
+
+                    <div class="itens_rodape">
+                        <div class="titulo_rodape">
+                            <h4>Sobre nós</h4>
+                        </div>
+                        <div class="lista_rodape">
+                            <ul>
+                                <li><a href="#">Nossa empresa</a></li>
+                                <li><a href="#">Nosso café</a></li>
+                                <li><a href="#">Atendimento ao cliente</a></li>
+                            </ul>
+                        </div>
+                    </div>
+        
+                    <div class="itens_rodape">
+                        <div class="titulo_rodape">
+                            <h4>Carreira</h4>
+                        </div>
+                        <div class="lista_rodape">
+                            <ul>
+                                <li><a href="#">Central de carreiras</a></li>
+                            </ul>
+                        </div>
+                    </div>            
+        
+                    <div class="itens_rodape">
+                        <div class="titulo_rodape">
+                            <h4>Impacto Social</h4>
+                        </div>
+                        <div class="lista_rodape">
+                            <ul>
+                                <li><a href="#">Comunidade</a></li>
+                                <li><a href="#">Meio Ambiente</a></li>
+                                <li><a href="#">Fornecimento ético</a></li>
+                            </ul>
+                        </div>
+                    </div>
+        
+                    <div class="itens_rodape">
+                        <div class="titulo_rodape">
+                            <h4>Starbucks Rewards</h4>
+                        </div>
+                        <div class="lista_rodape">
+                            <ul>
+                                <li><a href="#">Termos & Condições do AdaBucks Card</a></li>
+                                <li><a href="#">Termos & Condições do AdaBucks Rewards</a></li>
+                                <li><a href="#">Termos & Condições do Gift Card</a></li>
+                            </ul>
+                        </div>
+                    </div>            
+        
+                    <div class="itens_rodape">           
+                        
+                    </div> 
+
+                </div>
+
+                <div class="footer_2">
+                    <div class="img_rede_social">
+                        <figure class="img_rede_item">
+                            <a href="#"><img src="../assets/img/icon-spotify.svg" alt="Spotify" title="Spotify"></a>
+                        </figure>
+
+                        <figure class="img_rede_item">
+                            <a href="#"><img src="../assets/img/icon-facebook.svg" alt="Facebook" title="Facebook"></a>
+                        </figure>
+
+                        <figure class="img_rede_item">
+                            <a href="#"><img src="../assets/img/icon-linkedin.svg" alt="Linkedin" title="Linkedin"></a>
+                        </figure>
+                
+                        <figure class="img_rede_item">
+                            <a href="#"><img src="../assets/img/icon-instagram.svg" alt="Instagram" title="Instagram"></a>
+                        </figure>   
+
+                        <figure class="img_rede_item">
+                            <a href="#"><img src="../assets/img/icon-youtube.svg" alt="Youtube" title="Youtube"></a>
+                        </figure>                 
+                        <figure class="img_rede_item">
+                            <a href="#"><img src="../assets/img/icon-twitter.svg" alt="Twitter" title="Twitter"></a>
+                        </figure>             
+                    </div>
+                    <div class="politicas">
+                        <ul>
+                            <a href="#"><li>Política de privacidade</li></a>
+                            <li>|</li>
+                            <a href="#"><li>Política de troca de produto</li></a>
+                            <li>|</li>
+                            <a href="#"><li>Termos de uso</li></a>
+                            <li>|</li>
+                            <a href="#"><li>Política de Cookies</li></a>
+                        </ul>
+                    </div>
+                    <div class="direitos">
+                        <h4>© 2023 AdaBucks Coffee Company. Todos os direitos reservados.</h4>
+                    </div>
+                </div>         
+
+            </nav>
+            
+        </footer>
+
+    </div>
+
+    <script src="../assets/js/index.js" defer></script>
+
+</body>
+</html>

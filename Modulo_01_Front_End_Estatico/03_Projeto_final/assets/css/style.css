@@ -1,0 +1,1223 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    width: 95vw;
+    margin: 0px auto;
+    color: #1e3932;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    width: 90vw;
+    margin: auto;
+}
+
+
+
+
+
+
+
+
+/* ----- INÍCIO DO HEADER ----- */
+
+header {
+    display: flex;
+    justify-content: center;
+    height: 100px;
+}
+
+.container_header {
+    display: flex;
+    justify-content: center;
+    width: 90vw;
+    /* width: 1236px; */
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+.logo img {
+    height: 51px;
+    width: 51px;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex: 1;
+}
+
+.menu_principal {
+    display: flex;
+}
+
+.menu_principal ul {
+    display: flex;
+    align-items: center;
+    list-style: none;
+}
+
+.menu_principal a {
+    display: block;
+    padding-right: 30px;
+    text-decoration: none;
+    font-size: 12px;
+    color: black;
+    font-weight: 700;
+}
+
+.menu_principal a:hover {
+    color: #008248;
+}
+
+.menu_principal img {
+    height: 48px;
+    width: 120px;
+}
+
+.menu_secundario {
+    display: flex;
+    align-items: center;
+}
+
+.botao_1l {
+    display: flex;
+    justify-content: center;
+    width: 95px; 
+}
+
+.botao_1 a {
+    text-decoration: none;
+    display: block;
+    cursor: pointer;
+    transition: 300ms;
+    background-color: #ffffff;
+    border: 1px solid #000000;
+    border-radius: 20px;
+    font-size: 14px;
+    color: #000000;
+    font-weight: 700;
+    padding: 8px 17px;
+}
+
+.botao_1 a:hover {
+    display: block;
+    cursor: pointer;
+    transition: 300ms;
+    padding: 6px 15px;
+    font-size: 12px;
+}
+
+/* ----- FIM DO HEADER ----- */
+
+
+
+
+
+
+
+
+/* ----- INÍCIO DO BANNER ----- */
+
+#banner {
+    height: 394px;
+    background-image:url('../img/banner_2809220138_desktop.jpg');
+    background-position: center;
+    background-size: cover;    
+}
+
+.controle_banner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+    font-size: 30px;
+    padding: 0px 20px;
+}
+
+.esq {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+    width: 40px;
+    border: 1px solid #ffffff;
+    border-radius: 25px;
+    background-color: #ffffff;
+    box-shadow: 0px 3px 5px #949494;
+}
+
+.dir {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+    width: 40px;
+    border: 1px solid #ffffff;
+    border-radius: 25px;
+    background-color: #ffffff;
+    box-shadow: 0px 3px 5px #555555;
+}
+
+.controle_banner a {
+    display: inline-block;
+    cursor: pointer;
+    text-decoration: none;
+    padding-top: 7px;
+}
+
+/* ----- FIM DO BANNER ----- */
+
+
+
+
+
+
+
+
+/* ----- INÍCIO DO INFORMES ----- */
+
+#informes {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 200px;
+    width: 100%;
+    background-color: #f2f0eb;
+    margin-top: 30px;
+    text-align: center;
+}
+
+.botao {
+    display: flex;
+    align-items: center;
+    height: 40px;
+}
+
+.botao_saiba_mais a {
+    text-decoration: none;  
+    display: inline-block;
+    cursor: pointer;
+    transition: 300ms;
+    border: 1px solid #1e3932;
+    border-radius: 20px;
+    font-size: 14px;
+    color: #1e3932;
+    font-weight: 700;
+    padding: 8px 17px;
+}
+
+.botao_saiba_mais a:hover {
+    display: inline-block;
+    cursor: pointer;
+    background-color: #1e3932;
+    transition: 300ms;
+    font-size: 12px;
+    color: #ffffff;
+    padding: 6px 15px; 
+}
+
+/* ----- FIM DO INFORMES ----- */
+
+
+
+
+
+
+
+
+/* ----- INÍCIO DO VOLTANDO ----- */
+
+#voltando {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    height: 400px;
+    background-color: #f2f0eb;
+    margin-top: 30px;
+    text-align: center;
+}
+
+.nosso-cafe {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    min-height: 500px;
+    background-color: #f2f0eb;
+    margin-top: 30px;
+    text-align: center;
+    padding: 0px 50px 50px;
+}
+
+#voltando .conteudo_imagem {
+    display: flex;
+    flex: 1;
+    height: 100%;
+    background-image:url('../img/sb-dia-do-fotografo.png');
+    background-position: center;
+    background-size: cover;    
+}
+
+.conteudo_texto {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    flex: 1;
+}
+
+.titulo {
+    font-size: 25px;
+    color: #1e3932;
+    font-weight: 100;
+    margin-bottom: 30px;
+}
+
+.descricao {
+    font-size: 16px;
+    color: #1e3932;
+    line-height: 20px;
+    padding: 10px 35px;
+    margin-bottom: 30px;
+}
+
+/* ----- FIM DO VOLTANDO ----- */
+
+
+
+
+
+
+
+
+/* ----- INÍCIO DO SABOREIE ----- */
+
+#saboreie {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    height: 400px;
+    background-color: #f2f0eb;
+    text-align: center;
+    margin-top: 30px;
+}
+
+#saboreie .conteudo_imagem {
+    display: flex;
+    flex: 1;
+    height: 100%;
+    background-image:url('../img/featured-drinks.png');
+    background-position: center;
+    background-size: cover;
+}
+
+/* ----- FIM DO SABOREIE ----- */
+
+
+
+
+
+
+
+
+/* ----- INÍCO DO ESPERANÇA ----- */
+
+#esperanca {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    height: 400px;
+    background-color: #f2f0eb;
+    text-align: center;
+    margin-top: 30px;
+}
+
+#esperanca .conteudo_imagem {
+    display: flex;
+    flex: 1;
+    height: 100%;
+    background-image:url('../img/donate.png');
+    background-position: center;
+    background-size: cover;
+}
+
+/* ----- FIM DO ESPERANÇA ----- */
+
+
+
+
+
+
+
+
+/* ----- INÍCO DO COISAS ----- */
+
+#coisas {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    height: 400px;
+    background-color: #f2f0eb;
+    text-align: center;
+    margin-top: 30px;
+}
+
+#coisas .conteudo_imagem {
+    display: flex;
+    flex: 1;
+    height: 100%;
+    background-image:url('../img/partners.png');
+    background-position: center;
+    background-size: cover;
+}
+
+/* ----- FIM DO COISAS ----- */
+
+
+
+
+
+
+
+
+/* ----- INÍCIO DO RODAPÉ ----- */
+
+footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-top: 1px solid #bdbebe;
+    border-bottom: 1px solid #bdbebe;
+    margin-top: 30px;
+    padding-top: 50px;
+}
+
+.footer_1 {
+    display: flex;
+    height: 480px;
+}
+
+.footer_2 {
+    display: flex;
+    flex-direction: column;
+    height: 200px;
+    border-top: 1px solid #bdbebe;
+    padding-top: 50px;
+}
+
+.flexColumn {
+    flex-direction: column;
+}
+
+.itens_rodape {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    padding-right: 20px;
+}
+
+.titulo_rodape {
+    font-size: 18px;
+    color: #32312d;
+    padding-bottom: 30px;
+}
+
+.itens_rodape li {
+    list-style: none;
+    line-height: 25px;
+    padding-bottom: 20px;
+}
+
+.itens_rodape a {
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    font-size: 16px;
+    color: #707070;
+}
+
+.itens_rodape a:hover {
+    text-decoration: none;  
+    display: inline-block;
+    cursor: pointer;
+    font-size: 16px;
+    color: #212121;
+}
+
+.footer_2 ul {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    margin-top: 30px;
+}
+
+.footer_2 li {
+    margin-right: 20px;
+    margin-bottom: 45px;
+}
+
+.img_rede_social {
+    display: flex;
+    flex-direction: row;
+}
+
+.img_rede_item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 45px;
+    width: 45px;
+}
+
+.img_rede_item a {
+    display: flex;
+    transition: 300ms;
+    text-decoration: none;   
+}
+
+.img_rede_item a:hover {
+    transition: 300ms;
+    transform: scale(1.2);
+}
+
+.footer_2 a {
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    font-size: 16px;
+    color: #212121;
+}
+
+.footer_2 a:hover {
+    text-decoration: none;  
+    display: inline-block;
+    cursor: pointer;
+    font-size: 16px;
+    color: #707070;
+}
+
+.footer_2 h4 {
+    color: #707070;
+}
+
+.politicas {
+    text-align: left;
+}
+
+.direitos {
+    text-align: left;
+}
+
+/* ----- FIM DO RODAPÉ ----- */
+
+
+
+
+
+
+
+
+/* ----- INÍCIO PÁGINA NOSSO CAFÉ ----- */
+
+.foods__3_items {
+    display: flex;
+    flex-direction: row;
+    flex: 1;
+    justify-content: space-between;
+    height: 100%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.foods__item {
+    display: flex;
+    flex-direction: column;
+    width: 515px;
+    justify-content: top;
+    align-items: center;
+    border-radius: 10px;
+    box-shadow: 3px 0px 10px 1px rgba(204,204,204,1);
+    -webkit-box-shadow: 3px 5px 10px 1px rgba(204,204,204,1);
+    -moz-box-shadow: 3px 0px 10px 1px rgba(204,204,204,1);
+    border-left: 3px solid #ffbc0d;
+    border-bottom: 3px solid #ffbc0d;
+}
+
+.foods__3_items .foods__item {
+    display: flex;
+    flex-direction: column;
+    width: 330px;
+    justify-content: top;
+    align-items: center;
+    padding-top: 30px;
+    margin-bottom: 50px;
+    border-radius: 10px;
+    margin: 20px;
+    box-shadow: 3px 0px 10px 1px rgba(204,204,204,1);
+    -webkit-box-shadow: 3px 5px 10px 1px rgba(204,204,204,1);
+    -moz-box-shadow: 3px 0px 10px 1px rgba(204,204,204,1);
+    border-left: 3px solid #ffbc0d;
+    border-bottom: 3px solid #ffbc0d;
+}
+
+.foods__item > figure > img {
+    width: 100%;
+    margin-bottom: 25px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.foods__item > h3 {
+    font-size: 22px;
+    text-align: center;
+    padding-left: 30px;
+    padding-right: 30px;
+    letter-spacing: -0.9px;
+    color: #292929;
+    opacity: 1.0;
+}
+
+.foods__item > p {
+    height: 40px;
+    font-size: 14px;
+    text-align: center;
+    padding-left: 30px;
+    padding-right: 30px;
+    line-height: 1.5em;
+}
+
+.foods__item .foods__item_botoes_carrinho {
+    display: flex;
+    flex-direction: row;   
+}
+
+.foods__item .foods__item_botoes_carrinho  > button {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    min-width: 180px;
+    border: none;
+    background-color: #ffbc0d;
+    font-size: 14px;
+    color: #4c3807;
+    padding: 15px;
+    border-radius: 10px;
+    margin-bottom: 35px;
+    cursor: pointer;
+    transition: 300ms;
+}
+
+.foods__item .foods__item_botoes_carrinho .botao_menos {
+    display: flex;
+    flex-direction: row;
+    min-width: 20px;
+    border: none;
+    background-color: #ffbc0d;
+    font-size: 14px;
+    color: #4c3807;
+    padding: 15px;
+    border-radius: 10px;
+    margin-bottom: 35px;
+    margin-right: 5px;
+    cursor: pointer;
+    transition: 300ms;
+}
+
+.foods__item .foods__item_botoes_carrinho .botao_mais {
+    display: flex;
+    flex-direction: row;
+    min-width: 20px;
+    border: none;
+    background-color: #ffbc0d;
+    font-size: 14px;
+    color: #4c3807;
+    padding: 15px;
+    border-radius: 10px;
+    margin-bottom: 35px;
+    margin-left: 5px;
+    cursor: pointer;
+    transition: 300ms;
+}
+
+.foods__item .foods__item_botoes_carrinho > button:hover {
+    background-color: #4c3807;
+    color: #ffffff;
+    transition: 300ms;
+}
+
+.foods__3_items .foods__item:hover {
+    border-left: 3px solid #c08b00;
+    border-bottom: 3px solid #c08b00;
+}
+
+.foods__item:hover {
+    border-left: 3px solid #c08b00;
+    border-bottom: 3px solid #c08b00;
+}
+
+.foods__item > button {
+    min-width: 200px;
+    border: none;
+    background-color: #ffbc0d;
+    font-size: 14px;
+    color: #4c3807;
+    padding: 15px;
+    border-radius: 10px;
+    margin-bottom: 35px;
+    cursor: pointer;
+    transition: 300ms;
+    
+}
+
+.nosso-cafe {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    min-height: 500px;
+    background-color: #f2f0eb;
+    margin-top: 30px;
+    text-align: center;
+    padding: 0px;
+}
+
+/* ----- FIM PÁGINA NOSSO CAFÉ ----- */
+
+
+
+
+
+
+
+
+/* ----- INÍCIO PÁGINA DETALHE DO CAFÉ ----- */
+
+#carrinho {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 200px;
+    width: 100%;
+    background-color: #f2f0eb;
+    margin-top: 30px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+#carrinho .carrinho_valores {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 70%;
+    width: 90%;
+    background-color: #f2f0eb;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 3px 0px 10px 1px rgba(204,204,204,1);
+    -webkit-box-shadow: 3px 5px 10px 1px rgba(204,204,204,1);
+    -moz-box-shadow: 3px 0px 10px 1px rgba(204,204,204,1);
+    border-left: 3px solid #ffbc0d;
+    border-bottom: 3px solid #ffbc0d;
+}
+
+#carrinho .carrinho_valores > h2 {
+    font-size: 22px;
+    text-align: center;
+    padding-left: 30px;
+    padding-right: 30px;
+    letter-spacing: -0.9px;
+    color: #292929;
+    opacity: 1.0;   
+}
+
+#detalhes_cafe {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    height: 500px;
+    background-color: #f2f0eb;
+    margin-top: 30px;
+    padding: 0px 50px 50px;
+}
+
+.foods_cafe__2_items {
+    display: flex;
+    flex-direction: row;
+    flex: 1;
+    justify-content: space-between;
+    height: 470px;
+    margin-top: 50px;
+}
+
+.foods_cafe__2_items .foods_cafe__item {
+    display: flex;
+    flex-direction: column;
+    width: 40vw;
+    justify-content: top;
+}
+
+.foods_cafe__item {
+    display: flex;
+    flex-direction: column;
+    width: 515px;
+    justify-content: top;
+}
+
+.foods_cafe__item > img {
+    width: 100%;
+    margin-bottom: 25px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.foods_cafe__item > h1 {
+    font-size: 18px;
+    text-align: left;
+    line-height: 30px;
+    letter-spacing: 0.9px;
+    color: #006241;
+    opacity: 1.0;
+    margin-bottom: 10px;
+}
+
+.foods_cafe__item > h2 {
+    font-size: 18px;
+    text-align: left;
+    line-height: 30px;
+    letter-spacing: 0.9px;
+    color: #006241;
+    opacity: 1.0;
+    margin-bottom: 10px;
+    font-weight: normal;
+ }
+
+.foods_cafe__item > h3 {
+    line-height: 30px;
+    height: 50px;
+    font-size: 42px;
+    text-align: left;
+    letter-spacing: -2px;
+    color: #1e3932;
+    opacity: 1.0;
+    margin-bottom: 10px;
+}
+
+.foods_cafe__item > ol, ul {
+    font-size: 14px;
+    text-align: left;
+    padding-left: 20px;
+    padding-right: 30px;
+    letter-spacing: 0.9px;
+    color: #1e3932;
+    opacity: 1.0;
+}
+
+.foods_cafe__item > ul > li {
+    padding-bottom: 10px;
+}
+
+.foods_cafe__item > ol > li {
+    padding-bottom: 10px;
+}
+
+.foods_cafe__item_produto {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 515px;
+    justify-content: top;
+    padding-top: 50px;
+}
+
+.foods_cafe__item_produto > img {
+    text-align: center;
+    width: 85%;
+}
+
+.foods_cafe__item > p {
+    height: 90px;
+    margin-top: 20px;
+    font-size: 14px;
+    padding-left: 30px;
+    padding-right: 30px;
+    line-height: 1.5em;
+}
+
+.foods_cafe__item > button {
+    min-width: 200px;
+    border: none;
+    background-color: #ffbc0d;
+    font-size: 14px;
+    color: #4c3807;
+    padding: 15px;
+    border-radius: 10px;
+    margin-bottom: 35px;
+    cursor: pointer;
+    transition: 300ms;
+}
+
+.foods_cafe__item > button:hover {
+    background-color: #4c3807;
+    color: #ffffff;
+    transition: 300ms;
+}
+
+.tabela-nutricional, td, th {
+    background: #ffffff;
+    border: 1px #c0c0c0 solid;
+    border-collapse: collapse;
+    padding: 5px;
+    font-weight: normal;
+    font-size: 14px;
+    color: #1e3932;
+}
+
+.tabela-nutricional th {
+    background: #f0f0f0;
+    text-align: center;
+    font-weight: bold;
+}
+
+/* ----- FIM PÁGINA DETALHE DO CAFÉ ----- */
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 768px) {
+
+    /* ----- HOME ----- */
+
+    header {
+        display: flex;
+        justify-content: center;
+        height: 100px;
+    }
+
+    #banner {
+        height: 150px;
+        background-image: url(../img/banner_2809220138_desktop.jpg);
+        background-position: center;
+        background-size: cover;
+    }
+
+    #informes {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        height: 300px;
+        background-color: #f2f0eb;
+        margin-top: 30px;
+        text-align: center;
+    }
+
+    #voltando {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        height: 750px;
+        background-color: #f2f0eb;
+        margin-top: 30px;
+        text-align: center;
+    }
+
+    #voltando .conteudo_imagem {
+        display: flex;
+        flex: 1;
+        width: 100%;
+        background-image:url('../img/sb-dia-do-fotografo.png');
+        background-position: center;
+        background-size: cover;    
+    }
+
+    .titulo {
+        margin-top: 40px;
+    }
+    
+
+    #saboreie {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        height: 750px;
+        background-color: #f2f0eb;
+        text-align: center;
+        margin-top: 30px;
+        padding-top: 30px;
+    }
+
+    #saboreie .conteudo_imagem {
+        display: flex;
+        flex: 1;
+        width: 100%;
+        background-image:url('../img/featured-drinks.png');
+        background-position: center;
+        background-size: cover;
+    }
+
+    #esperanca {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        height: 750px;
+        background-color: #f2f0eb;
+        text-align: center;
+        margin-top: 30px;
+        padding-bottom: 30px;
+    }
+
+    #esperanca .conteudo_imagem {
+        display: flex;
+        flex: 1;
+        width: 100%;
+        background-image:url('../img/donate.png');
+        background-position: center;
+        background-size: cover;
+        border-bottom: 1px solid #cccccc;
+    }
+    
+
+    #coisas {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        height: 750px;
+        background-color: #f2f0eb;
+        text-align: center;
+        margin-top: 30px;
+        padding-top: 30px;
+    }
+
+    #coisas .conteudo_imagem {
+        display: flex;
+        flex: 1;
+        width: 100%;
+        background-image:url('../img/partners.png');
+        background-position: center;
+        background-size: cover;
+        border-top: 1px solid #cccccc;
+    }
+ 
+    .conteudo_texto {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        flex: 1;
+        justify-content: center;
+    }
+
+    footer {
+        display: flex;
+        justify-content: center;
+        border-top: 1px solid #bdbebe;
+        border-bottom: 1px solid #bdbebe;
+        margin-top: 30px;
+        padding-top: 50px;
+    }
+
+    .footer_1 {
+        display: flex;
+        height: 100%;
+        flex-direction: column;
+    }
+
+    .titulo_rodape {
+        font-size: 18px;
+        color: #32312d;
+        padding-bottom: 10px;
+    }
+    
+    .itens_rodape li {
+        list-style: none;
+        line-height: 25px;
+        padding-bottom: 10px;
+    }
+
+    .descricao {
+        font-size: 16px;
+        color: #1e3932;
+        line-height: 20px;
+        padding: 10px 35px;
+        margin-bottom: 20px;
+    }
+
+    .botao {
+        display: flex;
+        align-items: center;
+        height: 40px;
+        margin-bottom: 20px;
+    }
+
+    /* ----- HOME ----- */
+
+
+
+
+    /* ----- NOSSO CAFÉ ----- */
+
+    .foods__3_items {
+        display: flex;
+        flex-direction: row;
+        flex: 1;
+        justify-content: center;
+        height: 100%;
+        margin-top: 50px;
+        flex-wrap: wrap;
+    }
+
+    .foods__3_items .foods__item {
+        display: flex;
+        flex-direction: column;
+        width: 450px;
+        align-items: center;
+        padding-top: 30px;
+        margin-bottom: 50px;
+        border-radius: 10px;
+        box-shadow: 3px 0px 10px 1px rgba(204,204,204,1);
+        -webkit-box-shadow: 3px 5px 10px 1px rgba(204,204,204,1);
+        -moz-box-shadow: 3px 0px 10px 1px rgba(204,204,204,1);
+        border-left: 3px solid #ffbc0d;
+        border-bottom: 3px solid #ffbc0d;
+    }
+
+    /* ----- NOSSO CAFÉ ----- */    
+
+
+
+    /* ----- DETALHE CAFÉ ----- */    
+
+    .foods_cafe__2_items {
+        display: flex;
+        flex-direction: column;
+        flex: 1;
+        justify-content: space-between;
+        height: 470px;
+    }
+
+    .foods_cafe__2_items .foods_cafe__item {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        justify-content: top;
+    }
+    
+    #detalhes_cafe {
+        display: flex;
+        align-items: flex-start;
+        flex-direction: row;
+        height: 950px;
+        background-color: #f2f0eb;
+        margin-top: 30px;
+        padding: 30px;
+    }
+
+    /* ----- DETALHE CAFÉ ----- */     
+
+}
+
+@media only screen and (max-width: 480px) {
+
+    /* ----- HOME ----- */
+
+    #voltando {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        max-height: 900px;
+        background-color: #f2f0eb;
+        margin-top: 30px;
+        text-align: center;
+    }
+
+    .botao {
+        display: flex;
+        align-items: center;
+        height: 40px;
+        margin-bottom: 20px;
+    }
+
+    .descricao {
+        font-size: 16px;
+        color: #1e3932;
+        line-height: 20px;
+        padding: 10px 35px;
+        margin-bottom: 20px;
+    }
+
+    /* ----- HOME ----- */
+
+    /* ----- NOSSO CAFÉ ----- */
+
+    .foods__3_items {
+        display: flex;
+        flex-direction: row;
+        flex: 1;
+        justify-content: center;
+        height: 100%;
+        margin-top: 50px;
+        flex-wrap: wrap;
+    }
+
+    .foods__3_items .foods__item {
+        display: flex;
+        flex-direction: column;
+        width: 280px;
+        align-items: center;
+        padding-top: 30px;
+        margin-bottom: 50px;
+        border-radius: 10px;
+        box-shadow: 3px 0px 10px 1px rgba(204,204,204,1);
+        -webkit-box-shadow: 3px 5px 10px 1px rgba(204,204,204,1);
+        -moz-box-shadow: 3px 0px 10px 1px rgba(204,204,204,1);
+        border-left: 3px solid #ffbc0d;
+        border-bottom: 3px solid #ffbc0d;
+    }
+
+    .nosso-cafe {
+        display: flex;
+        align-items: center;
+        flex-direction: row;
+        min-height: 500px;
+        background-color: #f2f0eb;
+        margin-top: 30px;
+        text-align: center;
+        padding: 0px
+    }
+
+    /* ----- NOSSO CAFÉ ----- */ 
+
+
+
+    /* ----- DETALHE CAFÉ ----- */ 
+
+    .foods_cafe__item_produto {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        justify-content: top;
+        padding-top: 50px;
+    }
+
+}
